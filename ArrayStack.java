@@ -18,7 +18,8 @@ public class ArrayStack {
   // note: constructor = initialize an object instance of the class
   public ArrayStack(int size) {
     // todo: pass the value of size to capacity
-    storage = new String[/*__________*/]; // todo: update the array capacity
+    capacity = size
+    storage = new String[/*__________*/capacity]; // todo: update the array capacity
   }
 
   // note: will display the array
